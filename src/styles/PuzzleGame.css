@@ -1,0 +1,114 @@
+.app {
+    text-align: center;
+    background-image: url('https://t4.ftcdn.net/jpg/02/76/95/99/360_F_276959928_MzW1FMER5GDM51fsFgmzjcWHzTeP5UYI.jpg');
+    color: #bbc954;
+    min-height: 100vh;
+    min-width: 210vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-btn {
+    background-color: #934caf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-top: 13px;
+}
+
+.music-btn:hover {
+    background-color: #5b42ea;
+    color: #282c34;
+}
+
+.puzzle-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.tile {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11e6e6;
+    color: #282c34;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tile.empty {
+    background-color: #3765651e;
+    cursor: default;
+}
+
+.win-message {
+    font-size: 1.7em;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.reset-btn {
+    background-color: #61dafb;
+    color: #282c34;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.reset-btn:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.leaderboard-btn {
+    background-color: #61dafb;
+    color: #282c34;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.leaderboard-btn:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.leaderboard {
+    margin-top: 20px;
+}
+
+.leaderboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.leaderboard li {
+    background-color: #2980b9;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
